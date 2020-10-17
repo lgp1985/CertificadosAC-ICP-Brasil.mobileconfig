@@ -1,0 +1,33 @@
+{
+  "name": "ac-icp-brasil.mobileconfig",
+  "version": "1.0.0",
+  "description": "iOS Mobile Device Management (MDM) profile with iti repositório AC-Raiz",
+  "main": "server.js",
+  "dependencies": {
+    "adm-zip": "^0.4.16",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lgp1985/CertificadosAC-ICP-Brasil.mobileconfig.git"
+  },
+  "keywords": [
+    "iOS",
+    "MDM",
+    "mobileconfig",
+    "ICP",
+    "ICP-Brasil",
+    "Certificados"
+  ],
+  "author": "Luis Gustavo Pereira",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/lgp1985/CertificadosAC-ICP-Brasil.mobileconfig/issues"
+  },
+  "homepage": "https://github.com/lgp1985/CertificadosAC-ICP-Brasil.mobileconfig#readme"
+}
