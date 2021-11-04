@@ -2,9 +2,6 @@ var http = require('http');
 var AdmZip = require('adm-zip');
 var request = require('request');
 const { v4: uuidv4 } = require('uuid');
-// var fs = require('fs');
-// var path = require('path');
-// var path = require('path');
 
 http.createServer((req, res) => {
     switch (req.url) {
